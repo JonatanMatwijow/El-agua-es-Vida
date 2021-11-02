@@ -3,3 +3,145 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    background-color:#007F00 ;
+    display:inline-block;
+    box-shadow: 0 0 0 1em hsl(184, 66%, 85%);
+}
+
+/* .area_logo{
+    width: 100%;
+    /* position:relative;
+    left: 30px; */
+    /* margin-top: auto;
+    margin-bottom: 15px; 
+    margin: 15px;
+} */
+
+#zero{
+    text-align: start;
+    align-content: center;
+    position: absolute;
+    left: 120px;
+    top: 50px;
+}
+
+/*.log{
+    position: relative;
+}*/
+
+.img_logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.nav_bar{
+    /* font-size: 2em; */
+    text-align: center;
+    align-content: center;
+} 
+
+ .nav_link{
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    /* padding:0 70px;
+    margin:0 100px */
+}
+
+#link_one{
+    position: absolute;
+    top: 50px;
+    left: 45%;
+} 
+#link_two{
+    position: absolute;
+    top: 50px;
+    left: 65%;
+}
+#link_three{
+    position: absolute;
+    top: 50px;
+    left: 85%;
+}
+.hero_one{
+    /* background-color: black; */
+}
+.hero{
+    background-image: url(/img_layout/hero.jpg);
+    width: 100%;
+    height: 70em;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.hero h1{
+    font-size: 3em;
+    padding-top: 5%;
+
+}
+.text_hero{
+    width: 60%;
+    font-size: 1.5em;   
+    text-align: start;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+.conteiner__one{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+}
+.conteiner__two{
+    display: flex;
+    max-width: 70%;
+    position: absolute;
+    margin-top: 300px;    
+}
+/* .conteiner_flex{
+    display: flex;
+    flex-direction: column;
+    justify-items: right;
+    background-color: blue;
+    max-width: 30%;
+}
+
+ .conteiner_flex_two{
+    background-color: blueviolet;
+    max-width:70%;
+    display:flex;
+    flex-direction: row;
+    order: 2;
+} */
+.conteiner_child_one{
+    background-color:tomato;
+    justify-content: center;
+    align-content: flex-start;
+    order: 1
+
+}
+.conteiner_child_two{
+    background-color:violet;
+    display: flex;
+    justify-content: left;
+    align-self: flex-start;
+    order: 2
+}
+.conteiner_child_three{
+    background-color:aqua;
+    display: flex;
+    align-items: flex-start;
+    order: 3
+}
+.conteiner_child_four{
+    background-color: yellow;
+    display: flex;
+    align-items: flex-start;
+    order: 4
+}
