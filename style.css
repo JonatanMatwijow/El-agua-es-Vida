@@ -71,29 +71,38 @@ header {
     top: 50px;
     left: 85%;
 }
-.hero_one{
-    /* background-color: black; */
-}
+
+/*.hero_one{
+     background-color: black;
+}*/
 .hero{
     background-image: url(/img_layout/hero.jpg);
     width: 100%;
-    height: 70em;
+    height: 80em;
     background-size: cover;
     background-attachment:fixed;
 }
 .hero h1{
     font-size: 3em;
     padding-top: 5%;
-
 }
 .text_hero{
-    width: 60%;
+    width: 46%;
     font-size: 1.5em;   
-    text-align: start;
+    text-align: justify;
     margin-top: 7%;
     margin-left: 5%;
+    line-height: 2em;
 }
-.conteiner__one{
+
+.contenedor__{
+    background-color: rgb(133, 133, 13);
+    width: 900px;
+    height: 900px;
+    
+}
+
+/* .conteiner__one{
     display: flex;
     flex-direction: column;
     max-width: 30%;
@@ -104,21 +113,7 @@ header {
     position: absolute;
     margin-top: 300px;    
 }
-/* .conteiner_flex{
-    display: flex;
-    flex-direction: column;
-    justify-items: right;
-    background-color: blue;
-    max-width: 30%;
-}
 
- .conteiner_flex_two{
-    background-color: blueviolet;
-    max-width:70%;
-    display:flex;
-    flex-direction: row;
-    order: 2;
-} */
 .conteiner_child_one{
     background-color:tomato;
     justify-content: center;
@@ -144,4 +139,4 @@ header {
     display: flex;
     align-items: flex-start;
     order: 4
-}
+} */
