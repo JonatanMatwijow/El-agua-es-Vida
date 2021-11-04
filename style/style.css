@@ -108,10 +108,10 @@ ul{
     border: 1px solid black;
 }
 .card_titulo{
+    color:blanchedalmond;
+    background-color: #007f00;
     text-align: center;
     font-size: 2rem;
-    background-color: ##007f00;
-    color: blanchedalmond;
     padding: 15px;
     margin-bottom: 5px;
 }
