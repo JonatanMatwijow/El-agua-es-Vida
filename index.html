@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout_Recicle</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
@@ -14,11 +15,11 @@
             <picture>
                 <img class=img_logo src="./img_layout/logo2.jpg" alt="Imagen_logo">
             </picture>
-        
-            <div class="titulo_log">
-                <h1>Oro <em>a su lado</em></h1>
-            </div>    
-                
+
+            <div class="contenedor_titulo">
+                <h1 class="titulo_log">Oro a su lado</h1>
+            </div>
+
             <nav class="nav_bar">
                 <ul class="nav_bar_list">
                     <li>
@@ -28,53 +29,66 @@
                         <a class="nav_link" href="#">Noticias</a>
                     </li>
                     <li>
+                        <a class="nav_link" href="#">Sobre Nosotros</a>
+                    </li>
+                    <li>
                         <a class="nav_link" href="#">Contacto</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-   
-    <main class="hero_one">
+
+    <main>
         <section>
             <article class="hero">
-                <h1> Concientiza, sobre el oro liquido.</h1>
-                <p class="text_hero">El agua es un elemento de la naturaleza, integrante de los ecosistemas naturales, fundamental para el sostenimiento y la reproducción de la vida en el planeta.
-                    El agua es el componente más abundante en los medios orgánicos, los seres vivos contienen por término medio un 70% de agua. 
-                    El agua es el fundamento de la vida: un recurso crucial para la humanidad y para el resto de los seres vivos. Todos la necesitamos, y no solo para beber. Nuestros ríos y lagos, nuestras aguas costeras, marítimas y subterráneas, constituyen recursos valiosos que es preciso proteger.
-                    Asimismo, el agua contribuye a la estabilidad del funcionamiento del entorno y de los seres y organismos que en él habitan, es por tanto, un elemento indispensable para la subsistencia de la vida animal y vegetal del planeta. Es decir, que "el agua es un bien de primera necesidad para los seres vivos y un elemento natural imprescindible en la configuración de los sistemas medioambientales". </p>
+                <h1> Concientiza, sobre el oro liquido.</h1><br>
+                <p class="text_hero">El agua es un elemento de la naturaleza, integrante de los ecosistemas naturales,
+                    fundamental para el sostenimiento y la reproducción de la vida en el planeta.
+                    El agua es el componente más abundante en los medios orgánicos, los seres vivos contienen por
+                    término medio un 70% de agua.
+                    El agua es el fundamento de la vida: un recurso crucial para la humanidad y para el resto de los
+                    seres vivos. Todos la necesitamos, y no solo para beber. Nuestros ríos y lagos, nuestras aguas
+                    costeras, marítimas y subterráneas, constituyen recursos valiosos que es preciso proteger.
+                    Asimismo, el agua contribuye a la estabilidad del funcionamiento del entorno y de los seres y
+                    organismos que en él habitan, es por tanto, un elemento indispensable para la subsistencia de la
+                    vida animal y vegetal del planeta. Es decir, que "el agua es un bien de primera necesidad para los
+                    seres vivos y un elemento natural imprescindible en la configuración de los sistemas
+                    medioambientales". </p>
             </article>
         </section>
 
         <section class="contenedor__">
-            <div class="contenedor__one">
-                <article class="child_one">
-                    <h2>Cuidemos el Agua</h2>
+            <div class="contenedor__uno">
+                <article class="card">
+                    <h2 class="card_titulo">Cuidemos el Agua</h2>
                     <picture>
-                        <img src="/img_layout/cuidar_el_agua02.jpg" alt="Imagen de una mano cerrando el paso del agua, para no derrochar.">
+                        <img class="img_card" src="img_layout/cuidar_el_agua02.jpg"
+                            alt="Imagen de una mano cerrando el paso del agua, para no derrochar.">
                     </picture>
                 </article>
-    
-                <article class="child_two">
-                    <h2>Plantemos vida</h2>
+
+                <article class="card">
+                    <h2 class="card_titulo">Plantemos vida</h2>
                     <picture>
-                        <img src="/img_layout/forestar02.jpg" alt="Imagen plantando un arbolito">
+                        <img class="img_card" src="img_layout/forestar02.jpg" alt="Imagen plantando un arbolito">
                     </picture>
                 </article>
-    
-                <article class="child_three">
-                    <h2>Limpieza</h2>
+
+                <article class="card_tres">
+                    <h2 class="card_titulo">Limpieza</h2>
                     <picture>
-                        <img src="/img_layout/limpiar-playas02.jpg">
+                        <img class="img_card" src="img_layout/limpiar-playas02.jpg">
                     </picture>
-                </article>    
+                </article>
             </div>
 
-            <div class="contenedor__two">
-                <article class="child_four">
-                    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, doloribus.</h1>
+            <div class="contenedor__dos">
+                <article class="big_card">
+                    <h2 class="big_card_titulo">Cuidemos nuestro planeta</h2>
                     <picture>
-                        <img src="/img_layout/main02.jpg" alt="Imagen del planeta, siendo afectado por el desorden ambiental">
+                        <img class="img_big_card" src="img_layout/main02.jpg"
+                            alt="Imagen del planeta, siendo afectado por el desorden ambiental">
                     </picture>
                 </article>
             </div>
@@ -85,15 +99,16 @@
                 ACA PODRIAMOS PONER UN CARRUSEL DE FOTOS SOBRE COMO SE ESTA SECANDO EL LAGO MUSTER.
             </p>
         </section>
-        
+
     </main>
 
     <footer>
         <picture>
-            <img src="/img_layout/reciclaje_footer02.jpg" alt="imagen de reciclaje">
+            <img src="img_layout/reciclaje_footer02.jpg" alt="imagen de reciclaje">
         </picture>
         <span>creado por el grupo "nombre del grupo de HSE"</span>
     </footer>
 
 </body>
+
 </html>

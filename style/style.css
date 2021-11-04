@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    /*font-size por defecto es 16px*/
+    /*pero al utilizar la unidad de medida REM, 
+    estamos reseteando esa unidad por defecto*/
+    /* 1 REM = 10px*/
+    font-size: 62.5%;
+}
+ul{
+    list-style: none;
+}
+
+.cabecera {
+    width: 100%;
+    background-color:#007F00;
+    box-shadow: 0  0  0 1rem hsl(184, 66%, 85%);
+    margin-bottom: 7px;
+}
+
+.contenedor__cab{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.contenedor_titulo{
+    display: flex;
+    width: 250px;
+    margin-right:25px
+}
+
+.titulo_log{
+    display: flex;
+    align-items:center;
+    justify-content:center;   
+}
+
+.img_logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.nav_bar{
+    width: 100%;
+    display: flex;
+    margin-left: 25px;
+} 
+.nav_bar_list{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+ .nav_link{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+
+.hero{
+    background-image: url('../img_layout/hero.jpg');
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-attachment:fixed;
+    padding-left: 30px; 
+    padding-top: 100px;
+}
+
+.hero h1{
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    padding-left: 150px;
+    text-shadow: 0.1rem 1rem 1rem hsl(184, 97%, 13%);
+}
+.text_hero{
+    width: 50%;
+    font-size: 1.5rem;   
+    text-align: justify;
+    line-height: 4rem;
+}
+
+.contenedor__{
+    width: 100%;
+    display: flex;
+    align-content: space-around;
+    
+}
+.contenedor__uno{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    background-color: #007f00;
+    padding: 15px
+}
+.img_card{
+    width: 415px;
+    height: 300px;
+    border: 1px solid black;
+}
+.card_titulo{
+    text-align: center;
+    font-size: 2rem;
+    background-color: ##007f00;
+    color: blanchedalmond;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.contenedor__dos{
+    width: 75%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content:center;
+}
+
+.img_big_card{
+    display: block;
+    height: 800px;
+}
+
+.big_card_titulo{
+    width: 100%;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 4rem;
+    padding-top: 40px;
+    padding-bottom: 30PX;
+    text-align: center;
+}
+
+.img_big_card{
+    width: 600px;
+    height: 400px;
+    position: abolute;
+
+}
