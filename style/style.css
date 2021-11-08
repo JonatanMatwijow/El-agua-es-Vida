@@ -60,7 +60,7 @@ ul{
 }
  .nav_link{
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -98,19 +98,26 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 15px; 
-    background-color: #007f00;
+    background-color: whitesmoke;
     padding: 15px
 }
+.card__{
+    background-color: #007f00;
+    border-radius: 15%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
 .img_cards{
-    width: 415px;
-    height: 300px;
+    width: 430px;
+    height: 250px;
+    border-radius: 15%;
     /* border: 1px solid black; */
 }
 .card_titulo{
-    color:blanchedalmond;
-    background-color: #007f00;
-    text-align: center;
-    font-size: 2rem;
+    color: black;
+    text-align:center;
+    font-size: 2.5rem;
     padding: 15px;
     margin-bottom: 5px;
 }
