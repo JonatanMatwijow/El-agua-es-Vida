@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout_Recicle</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap.css">
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="contenedor__cab">
+            <picture>
+                <img class=img_logo src="./img_layout/logo2.jpg" alt="Imagen_logo">
+            </picture>
+
+            <div class="contenedor_titulo">
+                <h1 class="titulo_log">Oro a su lado</h1>
+            </div>
+
+            <nav class="nav_bar">
+                <ul class="nav_bar_list">
+                    <li>
+                        <a class="nav_link" href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="#">Noticias</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="#">Sobre Nosotros</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form action="" method="post" enctype="">
+
+            <fieldset>
+                <legend>Datos de perfil</legend>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" id="nombre">
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido">
+                </div>
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Ingresa tu telefono">
+                </div>
+                <div>
+                    <label for="edad">Edad</label>
+                    <input type="number" name="numero" id="edad" placeholder="Puedes ingresar solo numeros">
+                </div>
+                <div>
+                    <label for="correo">Correo</label>
+                    <input type="email" name="correo" id="correo" placeholder="Ingresa tu correo electronico">
+                </div>
+            </fieldset>
+
+            <div>
+                <label for="aceptar">Aceptar terminos</label>
+                <input type="checkbox" name="acepta" value="1" id="aceptar">
+            </div>
+
+
+
+            <div>
+                <label for="comentario">Comentario</label>
+                <textarea name="comentario" id="comentario" placeholder="Ingresar tu comentario" cols="50"
+                    rows="10"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar">
+            <button>Enviar</button>
+    </main>
+
+    <footer class="footer__">
+
+        <section class="redesSociales">
+            <h2>Siguenos</h2>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://wwww.facebook.com" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>¿Te gusatria colaborar?</h2>
+            <span></span>
+        </section>
+
+        <picture class="footerLog">
+            <img src="img_layout/reciclaje_footer02.jpg" alt="imagen de reciclaje">
+        </picture>
+
+
+
+
+
+        <span class="copyPersonal"> 20221 | creado por el grupo "nombre del grupo de HSE" con fines educativo</span>
+    </footer>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -24,7 +24,7 @@
             <nav class="nav_bar">
                 <ul class="nav_bar_list">
                     <li>
-                        <a class="nav_link" href="#">Inicio</a>
+                        <a class="nav_link" href="index.html">Inicio</a>
                     </li>
                     <li>
                         <a class="nav_link" href="#">Noticias</a>
@@ -33,7 +33,7 @@
                         <a class="nav_link" href="#">Sobre Nosotros</a>
                     </li>
                     <li>
-                        <a class="nav_link" href="#">Contacto</a>
+                        <a class="nav_link" href="contacto.html">Contacto</a>
                     </li>
                 </ul>
             </nav>
@@ -68,14 +68,12 @@
                             alt="Imagen de una mano cerrando el paso del agua, para no derrochar.">
                     </picture>
                 </article>
-
                 <article class="card__">
                     <h2 class="card_titulo">Plantemos vida</h2>
                     <picture>
                         <img class="img_cards" src="img_layout/forestar02.jpg" alt="Imagen plantando un arbolito">
                     </picture>
                 </article>
-
                 <article class="card__">
                     <h2 class="card_titulo">Limpieza</h2>
                     <picture>
@@ -87,7 +85,7 @@
             <div class="contenedor__dos">
                 <article class="big_card">
                     <h2 class="big_card_titulo">Cuidemos nuestro planeta</h2>
-                    <picture>
+                    <picture class="contenedor__img_big_card">
                         <img class="img_big_card" src="img_layout/main02.jpg"
                             alt="Imagen del planeta, siendo afectado por el desorden ambiental">
                     </picture>
@@ -95,38 +93,94 @@
             </div>
         </section>
 
-        <section>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <section class="carousel__">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
                 </div>
+
+                <!-- Wrapper for slides -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./img_layout/lago_muster/lago_musters_01.jpg" class="carousel-img-width" alt="...">
                     </div>
+                    <div class="carousel-item active">
+                        <img src="./img_layout/lago_muster/lago_musters_02.jpg" class="carousel-img-width" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="./img_layout/lago_muster/lago_musters_03.jpg" class="carousel-img-width" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="./img_layout/lago_muster/lago_musters_04.jpg" class="carousel-img-width" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="./img_layout/lago_muster/lago_musters_05.jpg" class="carousel-img-width" alt="...">
+                    </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+
+                <!-- Left and right controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </section>
-
     </main>
 
-    <footer>
-        <picture>
-            <img src="img_layout/reciclaje_footer02.jpg" alt="imagen de reciclaje">
+    <footer class="footer__">
+
+        <section class="footerContenedor">
+            <div class="redesSociales">
+                <h2>Siguenos</h2>
+                <ul>
+                    <li>
+                        <a class="linksRedesSociales" href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    </li>
+                    <li>
+                        <a class="linksRedesSociales" href="https://wwww.facebook.com" target="_blank">Facebook</a>
+                    </li>
+                    <li>
+                        <a class="linksRedesSociales" href="https://twitter.com" target="_blank">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footerContact">
+                <h2>¿Te gustaria colaborar?</h2></br>
+                <span>Solo debes de completar el formulario
+                    <a class="footerContactLink" href="contacto.html" target="_blank">
+                        <en>AQUI</em>
+                    </a></br>
+                    nos contactaremos contigo lo antes posible.
+                </span>
+            </div>
+        </section>
+
+
+
+
+
+        <picture class="footerLog">
+            <img class="footerLogImg" src="img_layout/reciclaje_footer02.jpg" alt="imagen de reciclaje">
         </picture>
-        <span>creado por el grupo "nombre del grupo de HSE"</span>
+
+
+        <span class="copyPersonal"> 20221 | creado por el grupo "nombre del grupo de HSE" con fines educativo.</span>
     </footer>
 
     <script src="JS/bootstrap.bundle.min.js"></script>
