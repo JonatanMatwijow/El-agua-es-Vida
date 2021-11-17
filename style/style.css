@@ -75,18 +75,22 @@ ul {
 }
 
 .hero h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
   font-size: 4rem;
   margin-bottom: 30px;
   padding-left: 150px;
   text-shadow: 0.1rem 1rem 1rem hsl(184, 97%, 13%);
 }
 .text_hero {
-  width: 50%;
+  width: 55%;
   margin-top: 20px;
   margin-left: 30px;
   font-size: 2rem;
-  text-align: justify;
+  text-align: left;
   line-height: 4rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
 }
 
 .contenedor__ {
@@ -158,13 +162,39 @@ ul {
 }
 
 .carousel__ {
-  background-color: whitesmoke;
+  background-color: red;
+  display: flex;
 }
 
-.carousel-img-width {
-  width: 75%;
+#carousel-img-width {
+  width: 50%;
   display: flex;
-  margin: 10px auto;
+  justify-content: flex-start;
+}
+
+#carousel-img-width_2 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pie_carousel {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.pie_carousel h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 10px;
+}
+.pie_carousel p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.8rem;
+  padding: 0 15px;
+  margin-top: 15px;
 }
 
 .footer__ {
@@ -180,6 +210,7 @@ ul {
 .redesSociales {
   max-width: 50%;
   display: flex;
+  justify-content: left;
   flex-direction: column;
   padding-left: 40px;
   padding-top: 30px;
