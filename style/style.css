@@ -66,7 +66,7 @@ ul {
 
 .hero {
   background-image: url("../img_layout/hero.jpg");
-  width: 100%;
+  max-width: 1200px;
   height: 868px;
   background-size: cover;
   background-attachment: fixed;
@@ -267,4 +267,17 @@ ul {
   color: black;
   font-style: oblique;
   text-decoration: none;
+}
+
+/* aca empieza la vista movil*/
+/* desp del media, debo de preguntarle al navegador el tamaño. ojo a eso*/
+@media (max-width 768p){
+  .contenedor__ {
+    width: 100%;
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+  }
+
+  
 }
