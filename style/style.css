@@ -16,7 +16,7 @@ ul {
 
 .cabecera {
   width: 100%;
-  background-color: #007f00;
+  background-color: #176b17;
   box-shadow: 0 0 0 1rem hsl(184, 66%, 85%);
   margin-bottom: 7px;
 }
@@ -44,7 +44,9 @@ ul {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin: 15px;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
 }
 
 .nav_bar {
@@ -62,37 +64,38 @@ ul {
 }
 .nav_link {
   color: white;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-decoration: none;
 }
 
 .hero {
   background-image: url("../imagenes/hero.jpg");
   width: 100%;
-  height: 868px;
+  height: 860spx;
   background-size: cover;
   background-attachment: fixed;
   padding-left: 30px;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 .hero h1, .formulario__titulo {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin-bottom: 30px;
   padding-left: 150px;
   text-shadow: 0.1rem 1rem 1rem hsl(184, 97%, 13%);
 }
 .text_hero {
   width: 50%;
-  margin-top: 20px;
   margin-left: 30px;
-  font-size: 2rem;
+  padding-bottom: 50px;
+  font-size: 1.8rem;
   text-align: left;
   line-height: 4rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 400;
+  margin-bottom: 0px;
 }
 
 .contenedor__ {
@@ -115,14 +118,14 @@ ul {
   padding-bottom: 10px;
 }
 .img_cards {
-  width: 430px;
-  height: 220px;
+  width: 300px;
+  height: 150px;
   border-radius: 15%;
 }
 .card_titulo {
   color: black;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   padding: 15px;
   margin-bottom: 5px;
 }
@@ -141,17 +144,20 @@ ul {
   flex-direction: column;
   align-items: center;
 }
-
-.big_card_titulo {
+.titulo_cards__ {
   width: 100%;
-  background-color: black;
-  color: blanchedalmond;
-  font-size: 4rem;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  background-color: whitesmoke;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.titulo_cards {
+  width: 100%;
+  color: #188796;
+  font-size: 7rem;
+  font-family: fantasy;
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
+
 }
 
 .img_big_card {
@@ -160,11 +166,10 @@ ul {
   align-items: center;
   justify-items: center;
   width: 80%;
-  height: 700px;
+  height: 550px;
 }
 
 .carousel__ {
-  background-color: red;
   display: flex;
 }
 
@@ -192,7 +197,7 @@ ul {
   font-weight: 700;
   padding-top: 10px;
 }
-.pie_carousel p {
+.pie_carousel, .pie_carousel_paf{
   font-family: "Courier New", Courier, monospace;
   font-size: 1.8rem;
   padding: 0 15px;
@@ -201,29 +206,66 @@ ul {
 
 .footer__ {
   width: 100%;
-  background-color: #007f00;
+  background-color: #176b17;
   display: inline-block;
 }
 
-.footerContenedor {
-  width: 100%;
+.footer_contenedor{
   display: flex;
-}
-.redesSociales {
-  max-width: 50%;
-  display: flex;
-  justify-content: left;
-  flex-direction: column;
-  padding-left: 40px;
-  padding-top: 30px;
 }
 
-.redesSociales h2 {
+.footer_list{
+  display: flex;
+  gap: 30px;
+  margin-left: 60px;
+  padding-top: 10px;
+}
+.redesSociales_h2{
+  font-size: 2.3rem;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.cont_flex{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.span_flex_2{
   font-size: 2rem;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.h2_flex_2{
+  text-align: end;
+  margin-top: 25px;
+  padding-right: 30px;
+  font-size: 1.5rem;
+  text-decoration-line: overline;
+  text-decoration-color: aliceblue;
+}
+
+.h2_flex_3 {
+  text-align: end;
+  font-size: 2.3rem;
+  padding-top: 10px;
+  padding-right: 55px;
+}
+.span_flex_3{
+  font-size: 1.4rem;
+  color:aliceblue;
+  text-align: center;
+  padding-right: 55px;
+}
+
+.em_aqui{
+  color:darkblue;
+  font-weight: bold;
+  text-decoration-line:underline;
 }
 
 .linksRedesSociales {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: antiquewhite;
   text-decoration: none;
 }
