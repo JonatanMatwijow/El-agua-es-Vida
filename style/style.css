@@ -320,5 +320,34 @@ ul {
 .formulario__titulo{
   margin-top: 40px;
   margin-bottom: 50px;
+}
 
+.card_noticias{
+  padding: 15px;
+}
+
+.titulo_video_noticias{
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-shadow: 0.1rem 1rem 1rem hsl(184, 97%, 13%);
+  text-align: center;
+}
+
+.videos_noticias{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.col-12_videos{
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.videos_col{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
