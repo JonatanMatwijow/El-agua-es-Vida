@@ -71,7 +71,7 @@ ul {
 .hero {
   background-image: url("../imagenes/hero.jpg");
   width: 100%;
-  height: 860spx;
+  height: 860px;
   background-size: cover;
   background-attachment: fixed;
   padding-left: 30px;
@@ -318,8 +318,12 @@ ul {
 }
 
 .formulario__titulo{
-  margin-top: 40px;
+  padding-top: 40px;
   margin-bottom: 50px;
+}
+
+.surf{
+  padding: 25px;
 }
 
 .card_noticias{
@@ -330,7 +334,7 @@ ul {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 900;
   font-size: 3.5rem;
-  margin-top: 30px;
+  padding-top: 30px;
   margin-bottom: 40px;
   text-shadow: 0.1rem 1rem 1rem hsl(184, 97%, 13%);
   text-align: center;
@@ -350,4 +354,36 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.hero_tips{
+  background-image: url("../imagenes/img_tips/portada.png");
+  width: 100%;
+  height: 680px;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-left: 30px;
+  padding-top: 70px;
+}
+.tips_background, .noticias_background, .contacto_background{
+  background-color: #d1f5fc;
+}
+.tips_uno{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+.tips_dos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 15px;
+  gap: 15px;
+}
+.tips_tres{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  
+
 }
